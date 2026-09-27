@@ -1,1 +1,1 @@
-This is Tenara's privacy policy.
+This is Tenava's privacy policy.
