@@ -139,53 +139,101 @@
 
   <main>
     <div class="card">
-      <p class="effective-date">Effective Date: July 25, 2026</p>
+      <p class="effective-date">Effective Date: October 6, 2026</p>
 
       <p class="intro">
-        Tenava respects your privacy. This Privacy Policy explains how we handle your information.
+        Tenava helps landlords record tenants and rent payments, and share that work with people they
+        trust. This Privacy Policy explains what information Tenava collects, how it's used, who can see it,
+        and how to delete it.
       </p>
 
       <h2>Information We Collect</h2>
-      <p>
-        Tenava uses Firebase Analytics to collect anonymous usage information such as app usage events and device information to help us understand app performance and improve the user experience.
-        See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details.
-      </p>
+      <p><strong>Your account.</strong> When you sign in with Google or email, we receive your name 
+        and your email address. Email and password sign-in is handled by
+        Firebase Authentication; we never see your password.</p>
+      <p><strong>Rental records you enter.</strong> Tenant names, rent amounts, move-in and due dates,
+        payments, rent history, and your preferred currency.</p>
+      <p><strong>Collaboration.</strong> The email addresses of people you invite, and the names and email
+        addresses of the people in your workspace.</p>
+      <p><strong>Subscriptions.</strong> If you subscribe to Tenava Pro, Google Play processes the payment.
+        We receive only your subscription status (for example, which plan and when it renews or ends) through
+        our subscription provider, RevenueCat. We never receive your card or payment details.</p>
+      <p><strong>Usage information.</strong> Firebase Analytics collects app usage events and device
+        information (such as device model and operating system) to help us understand performance and improve
+        the app.</p>
 
       <hr class="divider">
 
-      <h2>Data Storage</h2>
+      <h2>Where Your Data Is Stored</h2>
       <p>
-        Information you enter into Tenava, such as tenant information and rent payments, is stored locally on your device. Tenava does not upload this information to our servers.
+        Your account and rental records are stored in Google Firebase (Cloud Firestore and Firebase
+        Authentication), on Google Cloud servers. A copy is also kept on your phone so the app works offline;
+        it syncs when you're back online.
+      </p>
+      <p>
+        If you used Tenava before accounts were introduced, the records saved on your phone are copied into
+        your account the first time you sign in.
       </p>
 
       <hr class="divider">
 
       <h2>How We Use Information</h2>
-      <p>We use collected information to:</p>
+      <p>We use this information to:</p>
       <ul>
-        <li>Improve app performance and user experience</li>
-        <li>Provide support</li>
+        <li>Store your records, sync them across devices, and calculate balances and due dates</li>
+        <li>Let you work with the people you invite to your workspace</li>
+        <li>Provide Tenava Pro to subscribers</li>
+        <li>Send rent reminders on your phone, if you turn them on</li>
+        <li>Respond to support requests</li>
+        <li>Understand how the app is used, fix problems and improve it</li>
       </ul>
 
       <hr class="divider">
 
-      <h2>Data Sharing</h2>
+      <h2>Who Can See Your Data</h2>
       <p>
-        We do not sell your personal information. We use trusted service providers, such as analytics providers, to help operate and improve Tenava.
+        <strong>People in your workspace.</strong> Anyone you invite can see your workspace's tenants and
+        payments. Editors can also change them; Viewers can only look. You can change their access or remove
+        them at any time.
+      </p>
+      <p>
+        <strong>Service providers.</strong> We use Google (Firebase and Google Play) and RevenueCat to run
+        Tenava. They process data on our behalf under their own privacy terms:
+        <a href="https://policies.google.com/privacy">Google</a> and
+        <a href="https://www.revenuecat.com/privacy">RevenueCat</a>.
+      </p>
+      <p>
+        We do not sell your personal information, and we don't share it with anyone else.
+      </p>
+
+      <hr class="divider">
+
+      <h2>Security</h2>
+      <p>
+        Data is encrypted in transit and at rest by Google Cloud. Access rules ensure only members of a
+        workspace can read its data, and only owners and Editors can change it.
+      </p>
+
+      <hr class="divider">
+
+      <h2>How Long We Keep Data</h2>
+      <p>
+        We keep your data for as long as your account exists. When you delete your account, your data is
+        deleted from our systems; copies in our routine backups are removed automatically within 30 days.
       </p>
 
       <hr class="divider">
 
       <h2 id="delete-data">Delete Your Data</h2>
       <p>
-        Tenant names, rent amounts, and payment records you enter into Tenava are stored only on your
-        device and are never sent to us. Deleting a tenant in the app, or uninstalling Tenava, removes
-        that data immediately.
+        You can delete your account and data at any time in the app: <strong>Settings &rarr; Delete
+        Account</strong>. If you own a workspace, this deletes it with all its tenants, payments and history,
+        and anyone you invited loses access. If you only help with someone else's workspace, you're removed
+        from it and their records stay with them.
       </p>
       <p>
-        Anonymous Firebase Analytics events (see "Information We Collect" above) aren't linked to your
-        identity, so there's no personal record for us to locate or delete. If you have any questions
-        about this, email <a href="mailto:angelalehru@gmail.com">angelalehru@gmail.com</a>.
+        If you can't use the app, see <a href="account-deletion.html">how to request account deletion</a> or
+        email <a href="mailto:tenava.support@gmail.com">tenava.support@gmail.com</a>.
       </p>
 
       <hr class="divider">
@@ -206,7 +254,7 @@
 
       <h2>Contact</h2>
       <p>
-        Email: <a href="mailto:angelalehru@gmail.com">angelalehru@gmail.com</a>
+        Email: <a href="mailto:tenava.support@gmail.com">tenava.support@gmail.com</a>
       </p>
     </div>
   </main>
